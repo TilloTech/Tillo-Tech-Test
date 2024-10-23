@@ -2,7 +2,7 @@
 
 Hello, thank you for your interest in Tillo and for taking the time to complete our technical test.
 
-Please download or clone this repository and when you're done, zip it back up and email it to the Development Manager, Michael Norris - michael@tillo.io.
+Please download or clone this repository and when you're done, zip it back up and email it to recruitment@tillo.io
 
 > :warning: **Please do not Fork or submit PRs to this repository as they will be public.**
 
