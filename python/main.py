@@ -1,5 +1,3 @@
-import logging
-
 from fastapi import FastAPI, HTTPException
 import json
 import uvicorn
@@ -10,11 +8,8 @@ app = FastAPI()
 with open('./orders.json') as json_file:
     data = json.load(json_file)
 
-logger = logging.getLogger(__name__)
-
 @app.get("/api/orders")
 def get_order_by_id(id):
-    logger.info(f"testing: {id}")
     if not valid_order_id(id):
         raise HTTPException(status_code=400, detail=f"{id} is incorrectly formatted")
 
