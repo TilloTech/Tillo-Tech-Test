@@ -1,13 +1,30 @@
-from flask import Flask, jsonify, request
+import logging
 
-app = Flask(__name__)
+from fastapi import FastAPI, HTTPException
+import json
+import uvicorn
 
-@app.route("/api/orders", methods=['GET'])
-def get_order_by_id():
-    order_id = request.args.get("id")
-    if valid_order_id(order_id) is not True:
-        return jsonify({"error": f"{order_id} is incorrectly formatted"})
-    return jsonify(next((order for order in data if order["id"] == order_id), {}))
+app = FastAPI()
+
+# Load order data
+with open('./orders.json') as json_file:
+    data = json.load(json_file)
+
+logger = logging.getLogger(__name__)
+
+@app.get("/api/orders")
+def get_order_by_id(id):
+    logger.info(f"testing: {id}")
+    if not valid_order_id(id):
+        raise HTTPException(status_code=400, detail=f"{id} is incorrectly formatted")
+
+    # Find the order by ID
+    order = next((order for order in data if order["id"] == id), None)
+    if order is None:
+        raise HTTPException(status_code=404, detail="Order not found")
+
+    return order
+
 
 def valid_order_id(order_id: str) -> bool:
     try:
@@ -16,9 +33,11 @@ def valid_order_id(order_id: str) -> bool:
     except ValueError:
         return False
 
-if __name__ == '__main__':
-    import json
-    with open('./orders.json') as json_file:
-        data = json.load(json_file)
-    
-    app.run(debug=True)
+
+def main():
+    # Run the FastAPI app using uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000, log_level="info")
+
+
+if __name__ == "__main__":
+    main()

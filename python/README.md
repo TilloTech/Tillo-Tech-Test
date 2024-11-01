@@ -3,11 +3,11 @@
 
 **PLEASE READ THIS DOCUMENT FULLY**
 
-We have supplied you with a barebones Flask api to get you started. Currently there is only one function, if you know an order's ID, you can pass it to the API to fetch details of the order. Using the provided [orders.json](./orders.json) file, please address the following requirements.
+We have supplied you with a barebones FastAPI to get you started. Currently there is only one function, if you know an order's ID, you can pass it to the API to fetch details of the order. Using the provided [orders.json](./orders.json) file, please address the following requirements.
 
 ### Requirements
 
-You should complete this task using __Python3__ and __Flask__. Should you choose to install additional pip packages please write a short comment to justify why. You can use the provided answers.md file for any supporting material.
+You should complete this task using __Python3__ and __FastAPI__. Should you choose to install additional pip packages please write a short comment to justify why. You can use the provided answers.md file for any supporting material.
 
 Extend the API to allow users to filter all of the orders using the below GET parameters. It should be capable of handling multiple filters at a time.
 
@@ -39,5 +39,5 @@ The API response should contain meta data about the filters used and the number 
 
 For testing your implementation we will be using `curl` commands such as.
 ```bash
-curl localhost:5000/api/orders?currency=GBP&shipped_to=Essex&cost=150
+curl 'localhost:8000/api/orders?currency=GBP&shipped_to=Essex&cost=150'
 ```
