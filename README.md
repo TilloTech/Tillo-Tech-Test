@@ -1,15 +1,22 @@
 # Tillo Technical Test
 
-Hello, thank you for your interest in Tillo and for taking the time to complete our technical test.
+Welcome to Tillo's Technical Test! We appreciate your interest in joining our team and taking the time to complete this assessment.
 
-Please download or clone this repository and when you're done, zip it back up and email it to recruitment@tillo.io
+## Getting Started
 
-> :warning: **Please do not Fork or submit PRs to this repository as they will be public.**
+1. Download or clone this repository to your local machine
+2. Complete the technical test for your role
+3. Zip up your completed work 
+4. Email the zip file to recruitment@tillo.io
 
-### Software Engineers
+> :warning: **Important:** Please do not Fork or submit Pull Requests to this repository as they will be publicly visible.
 
-If you're applying for one of our Software Engineer roles, please see either the [README.md](php/README.md) in the [php](php) directory or the [README.md](python/README.md) in the [python](python) directory depending on the role you are applying for.
+## Role-Specific Instructions
 
-### Bonus
+Please navigate to the appropriate directory based on the role you're applying for:
 
-Feel free to tackle all parts if you want to.
+- [PHP Software Engineer](php)
+- [Python Software Engineer](python)
+- [.NET Engineer](dotnet)
+
+Each directory contains a detailed `README.md` with specific requirements and instructions for your technical assessment.
