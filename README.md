@@ -20,3 +20,6 @@ Please navigate to the appropriate directory based on the role you're applying f
 - [.NET Engineer](dotnet)
 
 Each directory contains a detailed `README.md` with specific requirements and instructions for your technical assessment.
+
+## Note
+While there is no strict time limit for completing these assessments, we recommend spending enough time to demonstrate your skills and problem-solving abilities effectively. Please take the time you need to produce quality work that showcases your capabilities.
