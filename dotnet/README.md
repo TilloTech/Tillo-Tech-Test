@@ -15,6 +15,7 @@ The application currently includes:
 - A button to simulate a transation (deposit, withdrawal, transfer)
 - Basic transaction data model
 - Simple error handling
+- .Net framework version 4.7.2 - `do not change!`
 
 ![](assets/topup.png)  |  ![](assets/transfer.png) |  ![](assets/withdraw.png)
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -28,7 +29,7 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
 - Consider implementing appropriate design principles and patterns
 - Look for opportunities to improve code organization and structure
 - Evaluate and enhance error handling approaches
-- Implementing testing
+- Implement testing
 
 ### 2. Transaction Simulation Features
 - Implement 3 transaction types:
@@ -52,10 +53,10 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
     - Transaction type
     - Amount range
     - Status
-- Allow multiple filters to be applied simultaneously (Bonus)
+- Allow multiple filters to be applied simultaneously - `Bonus`
 - Update results dynamically as filters change 
 
-### 4. Pagination
+### 4. Pagination - `Bonus`
 - Add features:
   - Configurable page size
   - Navigation controls
@@ -67,7 +68,7 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
   - Data refresh
 - Optimize for performance with large datasets
 
-### 5. Implement RESTful APIs (Bonus)
+### 5. Implement RESTful APIs - `Bonus`
 - No need for authentication and authorization
 - Refactor your code to use these APIs
 - Create API endpoints for:
@@ -75,7 +76,7 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
   - Creating new transactions (deposit/withdrawal/transfer)
   - Getting account balances and transaction details
 - Implement proper API versioning
-- Add API documentation using Swagger/OpenAPI
+- Add API documentation using Swagger/OpenAPI - `optional`
 
 ## Evaluation Criteria
 - Code quality and organization
@@ -85,12 +86,6 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
 - Testing methodology
 - Architectural decisions
 - Problem-solving approach
-
-## Submission Guidelines
-1. Fork this repository
-2. Implement your improvements
-3. Document your changes and reasoning
-4. Submit a pull request with your changes
 
 Have fun coding! 🚀
 
