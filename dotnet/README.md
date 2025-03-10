@@ -26,16 +26,17 @@ The application currently includes:
 Using ASP.NET Web Forms with VB.NET, complete the following tasks.
 
 ### 1. Code Refactoring and Architecture Improvements
-- Consider implementing appropriate design principles and patterns
-- Look for opportunities to improve code organization and structure
-- Evaluate and enhance error handling approaches
-- Implement testing
+- Improve the code organization and structure
+- Implement testing for only the transaction simulation features
 
 ### 2. Transaction Simulation Features
 - Implement 3 transaction types:
-  - Deposit: Add funds to account balance
-  - Withdrawal: Remove funds from account balance 
-  - Transfer: Move funds between accounts (no need to verify amount reached another account)
+  - Deposit: Add funds to account balance\
+    <sup>`Form fields: amount (required), description (opitonal)`</sup>
+  - Withdrawal: Remove funds from account balance \
+    <sup>`Form fields: amount (required), description (opitonal)`</sup>
+  - Transfer: Move funds between accounts (no need to verify amount reached another account)\
+    <sup>`Form fields: amount (required), receiver (required non-empty open text field), description (opitonal)`</sup>
 - Each transaction should:
   - Generate a unique transaction ID
   - Record timestamp
@@ -44,48 +45,22 @@ Using ASP.NET Web Forms with VB.NET, complete the following tasks.
 - Validate:
   - Sufficient funds for withdrawals/transfers
   - Valid amount (positive, within limits)
-  - Required fields are provided
+  - Required fields
 
-### 3. Transaction History Table Enhancements
-- Add column sorting (ascending/descending) for all columns
-- Add filters for:
-    - Date range
-    - Transaction type
-    - Amount range
-    - Status
-- Allow multiple filters to be applied simultaneously - `Bonus`
-- Update results dynamically as filters change 
-
-### 4. Pagination - `Bonus`
-- Add features:
-  - Configurable page size
-  - Navigation controls
-  - Page indicators
-  - Total count
-- Maintain pagination state during:
-  - Sorting
-  - Filtering
-  - Data refresh
-- Optimize for performance with large datasets
-
-### 5. Implement RESTful APIs - `Bonus`
-- No need for authentication and authorization
-- Refactor your code to use these APIs
-- Create API endpoints for:
-  - Retrieving transaction history with filtering and pagination
-  - Creating new transactions (deposit/withdrawal/transfer)
-  - Getting account balances and transaction details
+### 3. Implement RESTful APIs - `Bonus`
+<sup>*No need for authentication and authorization*</sup>
+- Create API(s) for the transaction simulation features
+- Refactor the transaction simulation features to use these APIs
 - Implement proper API versioning
 - Add API documentation using Swagger/OpenAPI - `optional`
 
+
 ## Evaluation Criteria
-- Code quality and organization
-- Security considerations
-- Performance optimization approaches
-- Understanding of financial transaction requirements
-- Testing methodology
-- Architectural decisions
-- Problem-solving approach
+- Use of appropriate architectural and design patterns (e.g. SOLID principles, dependency injection, clean code)
+- Security considerations and fintech security best practices
+
+> [!NOTE]
+> It shouldn't take you more than 24 hours to complete.
 
 Have fun coding! 🚀
 
