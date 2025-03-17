@@ -111,6 +111,6 @@ This should be ordered by year-month, and by total sale value, with the top sell
         - always provide a record for each month-product combination. Products with no sales in a given month should should be listed at the end of the table with their metric values set to 0, 0, £0.00.
 
 > [!NOTE]
-> It shouldn't take you more than 24 hours to complete.
+> Please do not spend more than about 2-3 hours on this task. We can discuss any improvements you feel like you didn't have time for.
 
 Good luck!
