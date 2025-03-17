@@ -110,5 +110,7 @@ This should be ordered by year-month, and by total sale value, with the top sell
         - always provide a record for each day-buyer-seller combination whether they transacted that day or not. In the case when no transaction has been made between a given buyer and a seller on the day, a row for the pair should still be present in the report, with the value of the metrics to be 0, £0.00, 0%, respectively.
         - always provide a record for each month-product combination. Products with no sales in a given month should should be listed at the end of the table with their metric values set to 0, 0, £0.00.
 
+> [!NOTE]
+> It shouldn't take you more than 24 hours to complete.
 
 Good luck!
