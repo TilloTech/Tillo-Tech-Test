@@ -15,9 +15,10 @@ Welcome to Tillo's Technical Test! We appreciate your interest in joining our te
 
 Please navigate to the appropriate directory based on the role you're applying for:
 
+- [Data Engineer](data)
+- [.NET Engineer](dotnet)
 - [PHP Software Engineer](php)
 - [Python Software Engineer](python)
-- [.NET Engineer](dotnet)
 
 Each directory contains a detailed `README.md` with specific requirements and instructions for your technical assessment.
 
