@@ -19,6 +19,7 @@ Please navigate to the appropriate directory based on the role you're applying f
 - [.NET Engineer](dotnet)
 - [PHP Software Engineer](php)
 - [Python Software Engineer](python)
+- [Software Development Engineer in Test](sdet)
 
 Each directory contains a detailed `README.md` with specific requirements and instructions for your technical assessment.
 
