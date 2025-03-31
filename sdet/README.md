@@ -28,7 +28,7 @@ Using Playwright with TypeScript, complete the following tasks:
     <sup>Test `episode information and there are at least 1 character`</sup>
 
 ### 2. E2E Test Implementation
-  > Website to perform tests againt can be found [here](https://rickandmortyapi.com/).
+  > Website to perform tests against can be found [here](https://rickandmortyapi.com/).
 
 - Create end-to-end tests for:
   - Homepage navigation and content verification
