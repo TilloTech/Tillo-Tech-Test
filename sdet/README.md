@@ -16,7 +16,7 @@ The framework currently includes:
 
 Using Playwright with TypeScript, complete the following tasks:
 
-### 1. API Test Implementation
+### 1. REST API Test Implementation
   > All necessary documentation can be found [here](https://rickandmortyapi.com/documentation/).
 
 - Implement tests for all main API endpoints:
