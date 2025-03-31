@@ -17,9 +17,9 @@ The framework currently includes:
 Using Playwright with TypeScript, complete the following tasks:
 
 ### 1. API Test Implementation
-- Implement tests for all main API endpoints:
-    > All necessary documentation can be found [here](https://rickandmortyapi.com/documentation/).
+  > All necessary documentation can be found [here](https://rickandmortyapi.com/documentation/).
 
+- Implement tests for all main API endpoints:
   - Characters API: `/api/character`\
     <sup>Test `filters and individual character retrieval`</sup>
   - Location API: `/api/location`\
@@ -28,6 +28,8 @@ Using Playwright with TypeScript, complete the following tasks:
     <sup>Test `episode information and there are at least 1 character`</sup>
 
 ### 2. E2E Test Implementation
+  > Website to perform tests againt can be found [here](https://rickandmortyapi.com/).
+
 - Create end-to-end tests for:
   - Homepage navigation and content verification
   - All menu items on the documentation page works correctly
