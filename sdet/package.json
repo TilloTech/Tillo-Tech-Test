@@ -9,9 +9,9 @@
     "report": "playwright show-report"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tillo Recruitment <recruitment@tillo.io> (https://github.com/TilloTech)",
   "license": "ISC",
-  "description": "",
+  "description": "Technical assessment for SDET position using Playwright",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.13.14"
