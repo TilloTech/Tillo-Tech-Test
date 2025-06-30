@@ -16,6 +16,7 @@ Welcome to Tillo's Technical Test! We appreciate your interest in joining our te
 Please navigate to the appropriate directory based on the role you're applying for:
 
 - [Data Engineer](data)
+- [Full-Stack PHP Engineer](fullstack-php)
 - [.NET Engineer](dotnet)
 - [PHP Software Engineer](php)
 - [Python Software Engineer](python)

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Tillo Custom Coding Standard" namespace="MyProject\CS\Standard">
+    <!-- Sample annotated file: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage -->
+
+    <description>Tillo custom coding standard</description>
+
+    <!-- Files & Directories to Include & Exclude -->
+    <file>./app</file>
+    <exclude-pattern>/app/Console/Kernel.php</exclude-pattern>
+    <exclude-pattern>/app/Http/Kernel.php</exclude-pattern>
+
+    <!--  Command Line Arguments  -->
+    <arg name="colors"/>
+    <arg value="s"/>
+
+    <!--  Standards & Rules  -->
+    <rule ref="PSR1"/>
+    <rule ref="PSR12"/>
+</ruleset>
