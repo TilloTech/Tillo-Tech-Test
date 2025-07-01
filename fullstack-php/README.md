@@ -60,9 +60,9 @@ This documentation helps us understand your thought process and the reasoning be
 1. Clone this repository
 2. Make sure you have Docker Desktop installed
 3. Run `composer install`
-4. Run `./vendor/bin/sail up -d` to start the application
-5. Run `./vendor/bin/sail npm install` to install Node.js dependencies
-6. Run `cp .env.example .env` to copy the sample .env file and configure your database
+4. Run `cp .env.example .env` to copy the sample .env file and configure your database
+5. Run `./vendor/bin/sail up -d` to start the application
+6. Run `./vendor/bin/sail npm install` to install Node.js dependencies
 7. Run `./vendor/bin/sail artisan migrate --seed` to set up the database with sample data
 8. Run `./vendor/bin/sail composer run dev` to build the frontend assets
 9. Visit `http://localhost` to see the application
