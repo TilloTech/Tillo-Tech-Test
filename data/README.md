@@ -1,31 +1,13 @@
 # Tillo Technical Test
+
 ## Data Engineer
 
 Thank you for applying to our open role for a data engineer at Tillo.
 
-You have passed through our filters and are over the first hurdle. Now we would like to invite you to an interview with the hiring managers of your prospective future role. 
+You have passed through our filters and are over the first hurdle. Now we would like to invite you to complete a technical task.
 
-### Our location
-- Tillo's Brighton and Hove Office at:
-    + Hove Business Centre
-    + Unit 11
-    + Hove, UK, BN3 6HA
-- See map: https://maps.app.goo.gl/rnTsqomSrjwfWc2m8
-
-## The interview
-In the upcoming interview, we would like to get to know you and ascertain your technical strengths and weaknesses as they pertain to this role. To help us achieve that, we have prepared a simple technical challenge (see below) for you to apply your skills at. Please take a look at it and come prepared to discuss it at the interview. You will also have a chance to ask us any questions you may have.
-
-First note:
-
-- This challenge exemplifies the sort of tasks you would be expected to perform in the role. If you like solving the challenge, you're going to love the work.
-- As you tackle it, we would like to encourage you to think of the environment around the task as well: for example, what other components, processes, and technologies need to exist around this project to make your solutions production-ready? What concerns might you have about your in the production context?
-- Don't fret about finding the "ultimate best" solution. We don't believe there is a "one, true solution" to this challenge. There are many ways to achieve its aims, and each has their strengths. We only need to see the one you can come up with and your reasoning for choosing it.
-- In the interview, we will be awarding bonus points for acknowledging any known weaknesses and drawbacks you can see with your own solution, as well as making any assumptions made along the way explicit.
-- It is expected that your solution is rough and unpolished. Please don't spend your time on trying to refine every nook and cranny. We can discuss your ideas for improvements in the interview.
-
-
----
 ## The challenge
+
 There are two parts to the challenge. The **first and most important** part is to *build a data pipeline* from two data sources into an analytical data warehouse. The second part, is about *analytical reporting* performed on the loaded data. We don't anticipate that this task will take very long to complete
 
 ### Part 1: ETL
@@ -71,12 +53,14 @@ Each *seller* can sell multiple *products* and each *buyer* can purchase any *pr
 Data from both the external sources described above must be loaded on a daily basis into this database.
 
 #### Task-to-be-done:
+
 1. Discuss: How would you build data pipelines from these two sources to _routineley_ and _automatically_ ingest sales CSV and exchange rate JSON data into the relational database?
 2. Design: Please build relational tables for daily sales and the daily rates data ingested into the data warehouse.
 
 ---
 
 ### Part 2: Reports
+
 Our commercial team monitors the sales on our platform. They have requested two reports to be produced to ease their task.
 
 The first report must be generated daily, with all transactions for each *buyer*, *seller* combination. All monetary values must be converted to our base currency (GBP) and summed up. Each record of the report should contain:
@@ -102,6 +86,7 @@ A second report comes out monthly. This gives a list of the most popular product
 This should be ordered by year-month, and by total sale value, with the top sellers first.
 
 #### Task-to-be-done:
+
 1. Discuss: Please explain how you would approach making these two reports from the data loaded into the data warehouse.
 2. Bonus points:
     + Produce SQL code to generate these two reports based on the schema in the analytics data warehouse.
