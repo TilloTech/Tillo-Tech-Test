@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FintechTransactionSimulatorV2</name>
+    </assembly>
+    <members>
+        <member name="F:FintechTransactionSimulatorV2._Default._form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:FintechTransactionSimulatorV2._Default._btnRefresh">
+            <summary>
+            btnRefresh control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:FintechTransactionSimulatorV2._Default._btnSimulate">
+            <summary>
+            btnSimulate control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:FintechTransactionSimulatorV2._Default._lblBalance">
+            <summary>
+            lblBalance control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:FintechTransactionSimulatorV2._Default._lblMessage">
+            <summary>
+            lblMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:FintechTransactionSimulatorV2._Default._gvTransactions">
+            <summary>
+            gvTransactions control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>
